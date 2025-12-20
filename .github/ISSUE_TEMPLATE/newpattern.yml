@@ -7,7 +7,7 @@ body:
     attributes:
       value: This is the repoistry where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a pattern or path to the list of safe imports, you are in the right place.
 
-  - type: checkbox
+  - type: checkboxes
     attributes:
       label: By adding your pattern to this repoistry, you agree to liscense your pattern under the same license as Natro Macro (GNU GPL v3.0)
       description: Please read the license [here](LICENSE).
