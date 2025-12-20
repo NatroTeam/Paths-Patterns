@@ -6,6 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
+      
       This is the repoistry where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a pattern or path to the list of safe imports, you are in the right place.
 
   - type: checkbox
