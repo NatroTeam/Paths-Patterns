@@ -1,0 +1,41 @@
+name: ➕ New pattern/path
+description: Add a new path or pattern to this repoistry
+labels: ["new pattern/path"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+      This is the repoistry where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a pattern or path to the list of safe imports, you are in the right place.
+
+  - type: checkbox
+    attributes:
+      label: By adding your pattern to this repoistry, you agree to liscense your pattern under the same license as Natro Macro (GNU GPL v3.0)
+      description: Please read the license [here](LICENSE).
+    validations:
+      required: true
+
+  - type: textarea
+    id: pattern
+    attributes:
+      label: Paste in your pattern here
+      description: Where would this feature be used and for what purpose?
+      placeholder: Tell us *why* you want this feature. How will it benefit Natro Macro users?
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: What is the name of your pattern?
+      description: It should also be the name of this issue.
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: What is the name you want this pattern to be credited under?
+      description: People usually use their Discord or Roblox username. 
+    validations:
+      required: true
