@@ -11,6 +11,9 @@ body:
     attributes:
       label: By adding your pattern to this repoistry, you agree to liscense your pattern under the same license as Natro Macro (GNU GPL v3.0)
       description: Please read the license [here](LICENSE).
+      options:
+        - label: **I agree**
+          required: true
     validations:
       required: true
 
