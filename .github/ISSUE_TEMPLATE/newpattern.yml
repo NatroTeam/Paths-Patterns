@@ -8,7 +8,6 @@ body:
       value: |
       
       This is the repoistry where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a pattern or path to the list of safe imports, you are in the right place.
-
       The title of this issue should be name of your pattern. You do not need to upload your pattern, it will be created based on the information you give in this issue.
 
   - type: checkboxes
