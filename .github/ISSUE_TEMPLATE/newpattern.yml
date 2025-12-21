@@ -26,9 +26,9 @@ body:
     attributes:
       label: "Paste in your pattern code here"
       placeholder: |
-          "nm_Walk(5, "FwdKey")"
-          "Sleep(1000)"
-          "..."
+          nm_Walk(5, "FwdKey")
+          Sleep(1000)
+          ...
       render: ahk
     validations:
       required: true
