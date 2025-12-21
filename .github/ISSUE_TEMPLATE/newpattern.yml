@@ -1,13 +1,13 @@
-name: ➕ New pattern/path
-description: Add a new path or pattern to this repoistry
-labels: ["new pattern/path"]
+name: ➕ New pattern
+description: Add a new pattern to this repoistry
+labels: ["new pattern"]
 
 body:
   - type: markdown
     attributes:
       value: |
       
-        This is the repoistry where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a pattern or path to the list of safe imports, you are in the right place.
+        This is the repoistry where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a pattern to the list of safe imports, you are in the right place.
         
         The title of this issue should be name of your pattern. You do not need to upload your pattern, it will be created based on the information you give in this issue.
 
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: pattern
     attributes:
-      label: "Paste in your pattern/path's code here"
+      label: "Paste in your pattern code here"
       placeholder: |
           "nm_Walk(5, "FwdKey")"
           "Sleep(1000)"
