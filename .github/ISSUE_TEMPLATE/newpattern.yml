@@ -11,16 +11,6 @@ body:
         
         The title of this issue should be name of your pattern. You do not need to upload your pattern, it will be created based on the information you give in this issue.
 
-  - type: checkboxes
-    attributes:
-      label: By adding your pattern to this repoistry, you agree to liscense your pattern under GNU GPL v3.0
-      description: You can read the license [here](blob/main/LICENSE)
-      options:
-        - label: I agree
-          required: true
-    validations:
-      required: true
-
   - type: textarea
     id: pattern
     attributes:
@@ -40,9 +30,21 @@ body:
       description: People usually use their Discord or Roblox username. 
     validations:
       required: true
+  
   - type: input
     id: description
     attributes:
       label: A short description for this pattern.
+      description: This will be displayed in the macro
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: By adding your pattern to this repoistry, you agree to liscense your pattern under GNU GPL v3.0
+      description: You can read the license [here](blob/main/LICENSE)
+      options:
+        - label: I agree
+          required: true
     validations:
       required: true
