@@ -1,0 +1,30 @@
+name: + New path
+description: Add a new path to this repository
+labels: ["new path"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        This is the repository where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a path to the list of safe imports, you are in the right place.
+        
+        **Due to the complexity of paths, which often involve multiple files, you will need to either contact a staff member to create a PR for you, or fork the repository and create a PR yourself.**
+
+  - type: input
+    id: author
+    attributes:
+      label: What is your discord username?
+      description: A staff member will contact you through discord to get the files and to upload them to a PR in this repository.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: By adding your path(s) to this repository, you agree to liscense your paths under GNU GPL v3.0
+      description: You can read the license [here](blob/main/LICENSE)
+      options:
+        - label: I agree
+          required: true
+    validations:
+      required: true
