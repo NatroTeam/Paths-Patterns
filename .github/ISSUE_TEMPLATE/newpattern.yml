@@ -40,3 +40,9 @@ body:
       description: People usually use their Discord or Roblox username. 
     validations:
       required: true
+  - type: input
+    id: description
+    attributes:
+      label: A short description for this pattern.
+    validations:
+      required: true
