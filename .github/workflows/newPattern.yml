@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v6.0.1
 
       - name: Create pattern file
-        uses: Noobyguy775/file-from-issue@v1
+        uses: NatroTeam/paths-patterns-action@v1.0
 
       - name: Create Pull Request
         id: create_pr
