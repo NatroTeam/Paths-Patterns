@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name Snake
  * @description A gathering path that moves in the shape of a snake
- * @author 
+ * @author Zez
  ***********************************************************************/
 loop reps {
 	send "{" TCLRKey " down}"

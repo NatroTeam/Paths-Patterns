@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name Squares
  * @description A pattern that gathers in the shape of a square
- * @author 
+ * @author Zez
  ***********************************************************************/
 loop reps {
 	send "{" TCFBKey " down}"

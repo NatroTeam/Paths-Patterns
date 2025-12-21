@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name Slimline
  * @description A gathering pattern that walks back and forth in a straight line
- * @author 
+ * @author zaappiix
  ***********************************************************************/
 send "{" TCLRKey " down}"
 Walk(( 4 * size ) + ( reps * 0.1 ) - 0.1)

@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name Lines
  * @description A gathering pattern that runs up and down in a field
- * @author 
+ * @author Zez
  ***********************************************************************/
 loop reps {
 	send "{" TCFBKey " down}"

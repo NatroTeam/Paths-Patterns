@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name e_lol
  * @description A generic gathering pattern meant to collect all tokens in an area
- * @author 
+ * @author e_lol
  ***********************************************************************/
 spacingDelay:=274 ;183
 send "{" TCLRKey " down}"

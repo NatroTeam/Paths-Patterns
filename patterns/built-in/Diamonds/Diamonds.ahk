@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name Diamonds
  * @description An gathering pattern in the shape of diamonds
- * @author 
+ * @author Zez
  ***********************************************************************/
 loop reps {
 	send "{" TCFBKey " down}{" TCLRKey " down}"

@@ -1,7 +1,7 @@
 ﻿/************************************************************************
  * @name SuperCat
  * @description A general gathering path designed to stay in the corner of a field
- * @author blackbeard6.
+ * @author blackbeard6
  ***********************************************************************/
 loop reps {
 	send "{" TCLRKey " down}" ; Left 1.5
