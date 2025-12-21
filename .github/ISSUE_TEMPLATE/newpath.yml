@@ -9,13 +9,19 @@ body:
       
         This is the repository where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to add a path to the list of safe imports, you are in the right place.
         
-        **Due to the complexity of paths, which often involve multiple files, you will need to either contact a staff member to create a PR for you, or fork the repository and create a PR yourself.**
+        Please write your changes clearly below. You can also upload your path files (if you add .txt at the of end the file name)
 
-  - type: input
-    id: author
+  - type: textarea
+    id: changes
     attributes:
-      label: What is your discord username?
-      description: A staff member will contact you through discord to get the files and to upload them to a PR in this repository.
+      label: Add your path file changes here
+      placeholder: |
+          // wf-pinetree.ahk (old)
+          34: nm_Walk(5, "FwdKey")
+          // wf-pinetree.ahk (new)
+          34: nm_Walk(10, "FwdKey")
+          ...
+          wf-pinetree.ahk.txt
     validations:
       required: true
 
