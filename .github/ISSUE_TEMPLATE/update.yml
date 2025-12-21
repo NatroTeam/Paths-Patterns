@@ -1,0 +1,36 @@
+name: ~ Update pattern/path
+description: Update existing pattern(s) or path(s)
+labels: ["update"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        This is the repository where Natro Macro stores and fetches patterns and paths confirmed to be safe by the developers. If you want to update a pattern or path to the list of safe imports, you are in the right place.
+
+        Please write your changes clearly below. You can also upload your pattern files (if you add .txt at the of the file name)
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Describe your changes here!
+      placeholder: |
+          // wf-pinetree.ahk (old)
+          34: nm_Walk(5, "FwdKey")
+          // wf-pinetree.ahk (new)
+          34: nm_Walk(10, "FwdKey")
+          ...
+          wf-pinetree.ahk.txt
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: By adding your path(s) to this repository, you agree to liscense your paths under GNU GPL v3.0
+      description: You can read the license [here](blob/main/LICENSE)
+      options:
+        - label: I agree
+          required: true
+    validations:
+      required: true
