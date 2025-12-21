@@ -1,0 +1,33 @@
+name: Create pattern PR
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create_pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6.0.1
+
+      - name: Create pattern file
+        uses: Noobyguy775/file-from-issue@v1
+
+      - name: Create Pull Request
+        id: create_pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: 'Add pattern ${{ github.event.issue.title }}'
+          labels: 'new pattern'
+          branch: 'pattern/${{ github.event.issue.user.login }}-${{ github.event.issue.title }}'
+          commit-message: 'Add pattern ${{ github.event.issue.title }}'
+          body: |
+            This Pull Request was automatically created from data provided in #${{ github.event.issue.number }}.
+
+            To add this pattern to the repository, merge it!
+
+            closes #${{ github.event.issue.number }}
+          base: 'main'
