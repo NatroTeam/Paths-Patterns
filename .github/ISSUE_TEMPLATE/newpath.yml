@@ -28,7 +28,7 @@ body:
   - type: checkboxes
     attributes:
       label: By adding your path(s) to this repository, you agree to liscense your paths under GNU GPL v3.0
-      description: You can read the license [here](blob/main/LICENSE)
+      description: You can read the license [here](https://github.com/NatroTeam/Paths-Patterns/blob/main/LICENSE)
       options:
         - label: I agree
           required: true
